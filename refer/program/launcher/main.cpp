@@ -65,9 +65,9 @@ struct local_identity {
     }
     else {
       names.push_back (hn);
-      if (hn.find ('.') != string::npos) {
-        names.push_back (hn.substr (0,hn.find('.')));
-      }
+      //if (hn.find ('.') != string::npos) {
+        //names.push_back (hn.substr (0,hn.find('.')));
+      //}
     }
 
     ifaddrs *ifap = 0;
